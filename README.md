@@ -1,19 +1,20 @@
-Ex-6-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-
-IMPLEMENTATION OF THE BACK END OF THE COMPILER
+## Ex-6-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-
+## IMPLEMENTATION OF THE BACK END OF THE COMPILER
 
-Reference number:212222100032
-Date : 30.10.2025
-Aim :
+## Reference number:212222100032
+## Date : 30.10.2025
+## Aim :
 To write a program to implement the back end of the compiler.
 
-ALGORITHM
+## ALGORITHM
 Start the program.
 Get the three variables from statements and stored in the text file k.txt.
 Compile the program and give the path of the source file.
 Execute the program.
 Target code for the given statement is produced.
 Stop the program.
-PROGRAM
+## PROGRAM
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -72,9 +73,10 @@ int main() {
     fclose(fp);
     return 0;
 }
-OUTPUT
+```
+## OUTPUT
 <img width="923" height="522" alt="image" src="https://github.com/user-attachments/assets/ab9afa77-addb-4ccf-8ce4-b8258ee97c3e" />
 
 
-Result
+## Result
 The back end of the compiler is implemented successfully, and the output is verified.
