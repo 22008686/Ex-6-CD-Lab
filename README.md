@@ -7,12 +7,14 @@
 To write a program to implement the back end of the compiler.
 
 ## ALGORITHM
-Start the program.
-Get the three variables from statements and stored in the text file k.txt.
-Compile the program and give the path of the source file.
-Execute the program.
-Target code for the given statement is produced.
-Stop the program.
+```
+1.Start the program.
+2.Get the three variables from statements and stored in the text file k.txt.
+3.Compile the program and give the path of the source file.
+4.Execute the program.
+5.Target code for the given statement is produced.
+6.Stop the program.
+```
 ## PROGRAM
 ```
 #include <stdio.h>
